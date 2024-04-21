@@ -1,12 +1,12 @@
 terraform {
 
-  cloud {
-    organization = "organization-name"
+  /*cloud {
+    organization = "nedim-itcc"
 
     workspaces {
       name = "learn-terraform-cloud"
     }
-  }
+  }*/
 
   required_providers {
     aws = {
@@ -15,5 +15,5 @@ terraform {
     }
   }
 
-  required_version = "~> 1.2"
+  #required_version = "~> 1.2"
 }
